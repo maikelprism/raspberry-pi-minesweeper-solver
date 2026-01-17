@@ -36,7 +36,7 @@ If you are not on a Pi, ensure a GPIO mock exists so imports succeed
 - `main.py`: Entry point, argument parsing, display init, main loop.
 - `input.py`: EventManager for keyboard and GPIO; produces Events.
 - `events.py`: Enum of all game events (e.g., BUTTON_LEFT, QUIT).
-- `views/`: UI screens (StartView, GameView, etc.).
+- `views`: UI screens (StartView, GameView, etc.).
 - `assets.py`: AssetManager for images/fonts/strings.
 - `config.py`: Constants like screen size, colors, key-event map.
 - `render(...)`: Writes to framebuffer on Pi; updates Pygame window on desktop.
