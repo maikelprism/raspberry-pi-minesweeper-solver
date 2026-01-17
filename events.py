@@ -1,0 +1,15 @@
+from enum import Enum
+
+class Events(Enum):
+    BUTTON_UP = "BUTTON_UP"
+    BUTTON_DOWN = "BUTTON_DOWN"
+    BUTTON_RIGHT = "BUTTON_RIGHT"
+    BUTTON_LEFT = "BUTTON_LEFT"
+    BUTTON_ENTER = "BUTTON_ENTER"
+    BUTTON_FLAG = "BUTTON_FLAG"
+    QUIT = "QUIT"
+    SPEED_1 = "SPEED_1"
+    SPEED_2 = "SPEED_2"
+    SPEED_3 = "SPEED_3"
+    SPEED_4 = "SPEED_4"
+    SPEED_5 = "SPEED_5"
