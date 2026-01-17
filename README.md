@@ -30,7 +30,7 @@ Arguments:
 - On desktop:
   - Uses Pygame keyboard events mapped via `config.KEY_EVENT_MAP`.
 
-If you are not on a Pi, ensure a GPIO mock exists so imports succeed:
+If you are not on a Pi, ensure a GPIO mock exists so imports succeed
 
 ## Files Overview
 - `main.py`: Entry point, argument parsing, display init, main loop.
