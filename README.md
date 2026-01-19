@@ -13,7 +13,7 @@ A Pygame-based Minesweeper that can run on a Raspberry Pi with GPIO buttons or o
 - Raspberry Pi only: RPi.GPIO
 
 ## Running
-From the `src` folder:
+From the root folder:
 ```bash
 python main.py EN 10
 # Or:
